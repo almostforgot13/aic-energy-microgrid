@@ -1,0 +1,16 @@
+# 仅为字段模板，不能把空值当作真实设备参数。
+# B 填值时须在参数来源表中标明来源/假设及单位。
+battery_capacity_kwh: null
+battery_charge_max_kw: null
+battery_discharge_max_kw: null
+battery_charge_efficiency: null
+battery_discharge_efficiency: null
+battery_soc_min_kwh: null
+battery_soc_max_kwh: null
+battery_soc_initial_kwh: null
+electrolyzer_max_kw: null
+electrolyzer_efficiency: null
+h2_tank_capacity_kg: null
+h2_initial_kg: null
+fuel_cell_max_kw: null
+fuel_cell_efficiency: null

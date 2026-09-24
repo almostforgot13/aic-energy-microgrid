@@ -1,0 +1,17 @@
+data/raw/
+data/processed/
+results/
+!data/sample/
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+*.log
+*.pkl
+*.joblib
+*.pt
+*.onnx
+.pytest_cache/
+.idea/
+.vscode/

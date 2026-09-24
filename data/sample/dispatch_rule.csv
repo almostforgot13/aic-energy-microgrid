@@ -1,0 +1,3 @@
+timestamp_utc,strategy,load_kw,pv_kw,wind_kw,grid_import_kw,battery_charge_kw,battery_discharge_kw,electrolyzer_kw,fuel_cell_kw,curtailment_kw,unserved_kw,soc_kwh,h2_kg,step_cost,solver_status
+2025-01-01T00:00:00Z,rule,100,0,20,80,0,0,0,0,0,0,50,5,40,rule
+2025-01-01T01:00:00Z,rule,110,10,20,80,0,0,0,0,0,0,50,5,40,rule
