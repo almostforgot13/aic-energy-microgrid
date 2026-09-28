@@ -1,5 +1,6 @@
 data/raw/
-data/processed/
+data/processed/*
+!data/processed/A_15min_virtual_2017_2019.csv
 results/
 !data/sample/
 __pycache__/

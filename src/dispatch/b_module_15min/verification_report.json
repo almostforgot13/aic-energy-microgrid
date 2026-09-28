@@ -1,0 +1,32 @@
+{
+  "validation": {
+    "passed": true,
+    "rows_checked": 672,
+    "required_rows": 672,
+    "expected_duration_h": 168.0,
+    "max_abs_power_balance_residual_kw": 2.2737367544323206e-13,
+    "cost_status": "not_implemented",
+    "energy_kwh_recalculated": {
+      "grid_import_kwh": 38754.30781239297,
+      "battery_charge_kwh": 3139.90746729925,
+      "battery_discharge_kwh": 3314.289459214864,
+      "electrolyzer_kwh": 5226.55661175,
+      "fuel_cell_kwh": 5988.63089881875,
+      "curtailment_kwh": 1268.7454117007503,
+      "unserved_kwh": 12122.789394823414,
+      "load_kwh": 172408.0880745001,
+      "pv_kwh": 10570.799999999994,
+      "wind_kwh": 111292.47999999998
+    },
+    "errors": []
+  },
+  "unit_tests": {
+    "passed": true,
+    "tests_run": 13,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "details": ".............\n----------------------------------------------------------------------\nRan 13 tests in 0.835s\n\nOK\n"
+  },
+  "passed": true
+}

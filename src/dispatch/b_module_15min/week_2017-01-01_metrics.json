@@ -1,0 +1,40 @@
+{
+  "start_utc": "2017-01-01T00:00:00+00:00",
+  "end_exclusive_utc": "2017-01-08T00:00:00+00:00",
+  "source_split": "train",
+  "steps": 672,
+  "step_h": 0.25,
+  "duration_h": 168.0,
+  "flagged_input_steps": 0,
+  "energy_kwh": {
+    "load_kwh": 172408.0880745,
+    "pv_kwh": 10570.8,
+    "wind_kwh": 111292.48,
+    "grid_import_kwh": 38754.30781239297,
+    "battery_charge_kwh": 3139.9074672992497,
+    "battery_discharge_kwh": 3314.2894592148637,
+    "electrolyzer_kwh": 5226.55661175,
+    "fuel_cell_kwh": 5988.630898818749,
+    "curtailment_kwh": 1268.7454117007505,
+    "unserved_kwh": 12122.789394823416
+  },
+  "unserved_steps": 228,
+  "unserved_duration_h": 57.0,
+  "curtailment_steps": 52,
+  "curtailment_duration_h": 13.0,
+  "grid_import_steps": 372,
+  "grid_import_duration_h": 93.0,
+  "max_unserved_kw": 473.06774900000005,
+  "max_curtailment_kw": 172.57632799999988,
+  "battery_final_energy_kwh": 300.0,
+  "hydrogen_final_kg": 59.99999999999999,
+  "solver_status_counts": {
+    "rule_curtailment": 52,
+    "rule_ok": 392,
+    "rule_unserved": 228
+  },
+  "cost_status": "not_implemented_no_agreed_price_or_degradation_cost",
+  "total_cost": null,
+  "forecast_used": false,
+  "note": "Unserved and curtailment are explicit; all energy totals equal sum(interval average kW * 0.25 h)."
+}
